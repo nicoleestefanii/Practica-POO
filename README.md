@@ -48,5 +48,3 @@ PracticaPOO/
 - **Institución:** Universidad Tecnológica de Panamá (UTP)
 - **Fecha de Realización:** 06/10/2026
 
-- Documentación oficial de PHP — Clases y Objetos: https://www.php.net/manual/es/language.oop5.php
-- Documentación oficial de PHP — Enlace estático tardío (Late Static Binding): https://www.php.net/manual/es/language.oop5.late-static-bindings.php
