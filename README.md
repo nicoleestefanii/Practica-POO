@@ -13,8 +13,6 @@ Este repositorio contiene la práctica de Programación Orientada a Objetos (POO
 
 ## 💻 Capturas de Pantalla y Problemas
 
-*(Aquí se incluye la imagen de la salida de cada problema)*
-
 - **ejemplo2.php — Herencia y sobreescritura de métodos:** Clase `Coche` con la propiedad `color` y el método `printCaracteristicas()`. La clase `CocheDeLujo` hereda de `Coche`, agrega la propiedad `extras` y sobreescribe `printCaracteristicas()` para mostrar también los extras del vehículo.
 - **ejemplo3.php — Clases `final`:** La clase `Coche` se declara como `final`, por lo que no puede ser heredada. Al intentar extenderla con `class CocheDeLujo extends Coche`, PHP genera un Fatal Error, demostrando la restricción de la palabra clave `final`.
 - **latestaticbinding.php — Enlace estático tardío (`self::` vs `static::`):** Las clases `A` y `B` (que hereda de `A`) definen `miFuncion()`. Al llamar `B::otraFuncion()`, que internamente usa `self::miFuncion()`, el resultado es `A`, ya que `self::` siempre resuelve a la clase donde se escribió el método.
@@ -46,11 +44,9 @@ PracticaPOO/
 
 ## 👤 Autor y Contexto
 
-- **Nombre:** Estefani
+- **Nombre:** Nicole Pinto, 8-1031-2426
 - **Institución:** Universidad Tecnológica de Panamá (UTP)
 - **Fecha de Realización:** 06/10/2026
-
-## 📚 Referencias
 
 - Documentación oficial de PHP — Clases y Objetos: https://www.php.net/manual/es/language.oop5.php
 - Documentación oficial de PHP — Enlace estático tardío (Late Static Binding): https://www.php.net/manual/es/language.oop5.late-static-bindings.php
