@@ -13,6 +13,22 @@ Este repositorio contiene la práctica de Programación Orientada a Objetos (POO
 
 ## 💻 Capturas de Pantalla y Problemas
 
+## Captura de los resultados de las prácticas
+Ejemplo 1
+![Ejemplo 1](capturas/ejemplo1.png)
+
+Ejemplo 2
+![Ejemplo 2](capturas/ejemplo2.png)
+
+Ejemplo 3
+![Ejemplo 3](capturas/ejemplo3.png)
+
+Ejemplo 4
+![Ejemplo 4](capturas/ejemplo4.png)
+
+Ejemplo 5
+![Ejemplo 5](capturas/ejemplo5.png)
+
 - **ejemplo2.php — Herencia y sobreescritura de métodos:** Clase `Coche` con la propiedad `color` y el método `printCaracteristicas()`. La clase `CocheDeLujo` hereda de `Coche`, agrega la propiedad `extras` y sobreescribe `printCaracteristicas()` para mostrar también los extras del vehículo.
 - **ejemplo3.php — Clases `final`:** La clase `Coche` se declara como `final`, por lo que no puede ser heredada. Al intentar extenderla con `class CocheDeLujo extends Coche`, PHP genera un Fatal Error, demostrando la restricción de la palabra clave `final`.
 - **latestaticbinding.php — Enlace estático tardío (`self::` vs `static::`):** Las clases `A` y `B` (que hereda de `A`) definen `miFuncion()`. Al llamar `B::otraFuncion()`, que internamente usa `self::miFuncion()`, el resultado es `A`, ya que `self::` siempre resuelve a la clase donde se escribió el método.
@@ -23,6 +39,12 @@ Este repositorio contiene la práctica de Programación Orientada a Objetos (POO
 
 ```
 PracticaPOO/
+├── capturas/
+│   ├── ejemplo1.png
+│   ├── ejemplo2.png
+│   ├── ejemplo3.png
+│   ├── ejemplo4.png
+│   └── ejemplo5.png
 ├── ejemplo2.php           # Herencia y sobreescritura de métodos (Coche / CocheDeLujo)
 ├── ejemplo3.php           # Clase final y el error al intentar heredarla
 ├── latestaticbinding.php  # self:: vs static:: (Late Static Binding)
